@@ -17,16 +17,42 @@ if (word_1.length < word_2.length) {
 
 // Il software deve chiedere per 10 volte all’utente di inserire un numero.
 // Il programma stampa la somma di tutti i numeri inseriti.
+/*
+var numbers = Number.prompt('Inserisci un numero')
+var somma;
 
-var numero1 = Number(prompt('Inserisci un numero'))
-var numero2 = Number(prompt('Inserisci un numero'))
-var numero3 = Number(prompt('Inserisci un numero'))
-var numero4 = Number(prompt('Inserisci un numero'))
-var numero5 = Number(prompt('Inserisci un numero'))
-var numero6 = Number(prompt('Inserisci un numero'))
-var numero7 = Number(prompt('Inserisci un numero'))
-var numero8 = Number(prompt('Inserisci un numero'))
-var numero9 = Number(prompt('Inserisci un numero'))
-var numero10 = Number(prompt('Inserisci un numero')
+ var foo = 1;
+var output = 'Output: ';
+switch (foo) {
+  case 0:
+    output += 'So ';
+  case 1:
+    output += 'What ';
+    output += 'Is ';
+  case 2:
+    output += 'Your ';
+  case 3:
+    output += 'Name';
+  case 4:
+    output += '?';
+    console.log(output);
+    break;
+  case 5:
+    output += '!';
+    console.log(output);
+    break;
+  default:
+    console.log('Please pick a number from 0 to 5!');
+    console.log(somma);
+    document.getElementById('somma').innerHTML = somma;
+} */
 
-document.getElementById('somma').innerHTML = numero1 + numero2 + numero3 + numero4 + numero5 + numero6 + numero7 + numero8 + numero9 + numero10
+var number_1 = Number(prompt('Type a number'));
+var sum = 0;
+
+for(var i = 0; i < 10; i++){
+    var numeroutente = Number(prompt('Type a number'));
+    sum += numeroutente;
+}
+
+console.log(sum);
