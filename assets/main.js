@@ -47,7 +47,7 @@ switch (foo) {
     document.getElementById('somma').innerHTML = somma;
 } */
 
-var number_1 = Number(prompt('Type a number'));
+/* var number_1 = Number(prompt('Type a number'));
 var sum = 0;
 
 for(var i = 0; i < 10; i++){
@@ -55,4 +55,24 @@ for(var i = 0; i < 10; i++){
     sum += numeroutente;
 }
 
-console.log(sum);
+console.log(sum); */
+
+//In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+var nome = prompt("Qual è il tuo nome?"); 
+var access = false;
+
+var nomiArray = ["Ottavio", "Giuliano", "Franchino", "Michele", "Manfredi"];
+
+for (var index = 0; index < nomiArray.length; index++) {
+    if (nome == nomiArray[index]) {
+        access = true;
+    }
+}
+
+if (access == true) {
+    document.getElementById('invito').innerHTML = "Perfetto, puoi entrare"
+} else {
+    document.getElementById('invito').innerHTML = "Mi spiace, non puoi entrare"
+
+}
