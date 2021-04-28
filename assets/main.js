@@ -1,5 +1,5 @@
 // JSnack-1
-// L’utente inserisce due numeri in successione, con due prompt.
+// L’utente inserisce due numeri in successione, con due prompt. Il software stampa il maggiore
 var number_1 = Number(prompt('Inserisci un numero'));
 var number_2 = Number(prompt('Inserisci un altro numero'));
 
@@ -11,19 +11,19 @@ if(number_1 === number_2){
   console.log(number_2);
 }
 
+// JSnack-2
 // L’utente inserisce due parole in successione, con due prompt.
 //Il software stampa prima la parola più corta, poi la parola più lunga.
-
-/* var word_1 = prompt('Inserisci una parola');
+var word_1 = prompt('Inserisci una parola');
 var word_2 = prompt('Inserisci una seconda parola');
 
-if (word_1.length < word_2.length) {
-    console.log(word_1, word_2);
-} else if (word_2.length < word_1.length); {
-    console.log(word_2, word_1);
-} else (word_1.length === word_2.length) {
-    console.log(word_1, word_2);
-}  */
+if(word_1.length === word_2.length){
+  console.log('Try again!');
+} else if (word_1.length > word_2.length ) {
+  console.log(word_2, word_1);
+} else {
+  console.log(word_1, word_2);
+} 
 
 // Il software deve chiedere per 10 volte all’utente di inserire un numero.
 // Il programma stampa la somma di tutti i numeri inseriti.
