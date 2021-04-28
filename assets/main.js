@@ -59,7 +59,7 @@ console.log(sum); */
 
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
-var nome = prompt("Qual è il tuo nome?"); 
+/* var nome = prompt("Qual è il tuo nome?"); 
 var access = false;
 
 var nomiArray = ["Ottavio", "Giuliano", "Franchino", "Michele", "Manfredi"];
@@ -75,4 +75,38 @@ if (access == true) {
 } else {
     document.getElementById('invito').innerHTML = "Mi spiace, non puoi entrare"
 
+} */
+
+// Snack 5:
+//Crea un array vuoto.
+//Chiedi per 6 volte all’utente di inserire un numero,
+//se è dispari inseriscilo nell’array.
+
+/* var emptyArray = [0]
+
+for (var i = emptyArray; emptyArray < 6; emptyArray++) {
+  if (emptyArray % 2 != 0) {
+    var oddNumber +=
+  }
 }
+var total = emptyArray.push() */
+
+// JSnack 6
+// Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
+var userNumber = Number(prompt('Inserisci un numero'));
+var userNumber = false;
+var i;
+
+/* 
+do (userNumber) {
+  i = Math.cube(userNumber)
+} while (userNumber === true) */
+
+for (var i = 1; i < userNumber; i++) {
+  var cube = Math.cube(userNumber)
+}
+console.log(cube)
+
+
+
+
