@@ -93,7 +93,7 @@ var total = emptyArray.push() */
 
 // JSnack 6
 // Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
-var userNumber = Number(prompt('Inserisci un numero'));
+/* var userNumber = Number(prompt('Inserisci un numero'));
 var userNumber = false;
 var i;
 
@@ -102,11 +102,23 @@ do (userNumber) {
   i = Math.cube(userNumber)
 } while (userNumber === true) */
 
-for (var i = 1; i < userNumber; i++) {
+/* for (var i = 1; i < userNumber; i++) {
   var cube = Math.cube(userNumber)
 }
-console.log(cube)
+console.log(cube)  */
 
+// Esercizio 8, snack 8 - blocco 1
+//Chiedi un numero di 4 cifre all’utente
+//e calcola la somma di tutte le cifre che compongono il numero. 
 
+var value = parseInt(prompt('Inserisci un numero di quattro cifre')),
+    sum = 0;
+
+while (value) {
+    sum += value % 10;
+    value = Math.floor(value / 10);
+}
+
+console.log(sum);
 
 
