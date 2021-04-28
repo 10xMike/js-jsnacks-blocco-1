@@ -25,8 +25,10 @@ if(word_1.length === word_2.length){
   console.log(word_1, word_2);
 } 
 
+// JSnack-3
 // Il software deve chiedere per 10 volte all’utente di inserire un numero.
 // Il programma stampa la somma di tutti i numeri inseriti.
+
 /*
 var numbers = Number.prompt('Inserisci un numero')
 var somma;
@@ -66,6 +68,15 @@ for(var i = 0; i < 10; i++){
 }
 
 console.log(sum); */
+
+var number_1 = Number(prompt('Type a number'));
+var sum = 0;
+for(var i = 0; i < 10; i++ ){
+    var userNumber = Number(prompt('Type a number'));
+    sum += userNumber;
+}
+console.log(sum); 
+
 
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 
