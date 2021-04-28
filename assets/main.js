@@ -18,7 +18,7 @@ var word_1 = prompt('Inserisci una parola');
 var word_2 = prompt('Inserisci una seconda parola');
 
 if(word_1.length === word_2.length){
-  console.log('Try again!');
+  console.log('Le parole sono della stessa lunghezza!');
 } else if (word_1.length > word_2.length ) {
   console.log(word_2, word_1);
 } else {
