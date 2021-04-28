@@ -1,5 +1,15 @@
+// JSnack-1
+// L’utente inserisce due numeri in successione, con due prompt.
+var number_1 = Number(prompt('Inserisci un numero'));
+var number_2 = Number(prompt('Inserisci un altro numero'));
 
-
+if(number_1 === number_2){
+  console.log('Same number! try again');
+} else if (number_1 > number_2) {
+  console.log(number_1);
+} else {
+  console.log(number_2);
+}
 
 // L’utente inserisce due parole in successione, con due prompt.
 //Il software stampa prima la parola più corta, poi la parola più lunga.
@@ -111,7 +121,7 @@ console.log(cube)  */
 //Chiedi un numero di 4 cifre all’utente
 //e calcola la somma di tutte le cifre che compongono il numero. 
 
-var value = parseInt(prompt('Inserisci un numero di quattro cifre'));
+/* var value = parseInt(prompt('Inserisci un numero di quattro cifre'));
 var sum = 0;
 
 while (value) {
@@ -119,6 +129,6 @@ while (value) {
     value = Math.floor(value / 10);
 }
 
-console.log(sum);
+console.log(sum); */
 
 
