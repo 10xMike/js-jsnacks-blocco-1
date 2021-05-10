@@ -1,6 +1,6 @@
 // JSnack-1
 // L’utente inserisce due numeri in successione, con due prompt. Il software stampa il maggiore
-var number_1 = Number(prompt('Inserisci un numero'));
+/* var number_1 = Number(prompt('Inserisci un numero'));
 var number_2 = Number(prompt('Inserisci un altro numero'));
 
 if(number_1 === number_2){
@@ -9,12 +9,12 @@ if(number_1 === number_2){
   console.log(number_1);
 } else {
   console.log(number_2);
-}
+} */
 
 // JSnack-2
 // L’utente inserisce due parole in successione, con due prompt.
 //Il software stampa prima la parola più corta, poi la parola più lunga.
-var word_1 = prompt('Inserisci una parola');
+/* var word_1 = prompt('Inserisci una parola');
 var word_2 = prompt('Inserisci una seconda parola');
 
 if(word_1.length === word_2.length){
@@ -24,7 +24,7 @@ if(word_1.length === word_2.length){
 } else {
   console.log(word_1, word_2);
 } 
-
+ */
 // JSnack-3
 // Il software deve chiedere per 10 volte all’utente di inserire un numero.
 // Il programma stampa la somma di tutti i numeri inseriti.
@@ -69,13 +69,13 @@ for(var i = 0; i < 10; i++){
 
 console.log(sum); */
 
-var number_1 = Number(prompt('Type a number'));
+/* var number_1 = Number(prompt('Type a number'));
 var sum = 0;
 for(var i = 0; i < 10; i++ ){
     var userNumber = Number(prompt('Type a number'));
     sum += userNumber;
 }
-console.log(sum); 
+console.log(sum);  */
 
 
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
@@ -128,6 +128,15 @@ do (userNumber) {
 }
 console.log(cube)  */
 
+// Esercizio 7, snack 7 - blocco 1
+// Stampa le potenze di 2 fino a 1000
+/* var counter = 0;
+while (Math.pow(2, counter) < 1000) {
+  console.log(Math.pow(2, counter));
+  counter++;
+} */
+
+
 // Esercizio 8, snack 8 - blocco 1
 //Chiedi un numero di 4 cifre all’utente
 //e calcola la somma di tutte le cifre che compongono il numero. 
@@ -141,5 +150,4 @@ while (value) {
 }
 
 console.log(sum); */
-
 
