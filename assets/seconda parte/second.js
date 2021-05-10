@@ -13,8 +13,8 @@ Palla.peso =  parseInt(prompt('Modifica il peso della palla'));
 // Calcolare perimetro e area
 
 var Triangolo = {
-    base: 20,
-    altezza: 30,
+    base: 40,
+    altezza: 50,
 }
 
 var ipotenusa = (Math.sqrt(Math.pow(Triangolo.base, 2) + Math.pow(Triangolo.altezza, 2)));
