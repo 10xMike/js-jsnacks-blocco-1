@@ -1,6 +1,8 @@
-// Creare un oggetto palla che abbia le seguenti proprietà
+// 1a. Creare un oggetto palla che abbia le seguenti proprietà
 
 var palla = {
-    nome: palla,
+    nome: "palla",
     peso: 10,
 }
+
+// 
