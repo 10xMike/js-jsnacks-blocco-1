@@ -1,6 +1,6 @@
 // 1a. Creare un oggetto palla che abbia le seguenti proprietà
 
-var palla = {
+var Palla = {
     nome: "palla",
     peso: 10,
 }
